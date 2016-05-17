@@ -1,0 +1,322 @@
+/*
+ localizable.strings
+ Louis Pion English
+ 
+ Created by Emie technology HK Ltd on 15/12/01.
+ Copyright (c) 2015 nevo. All rights reserved.
+ */
+/*登陆页面*/
+"login_navtitle" = "Login";
+"login_loginbtn" = "Login";
+"login_registerbtn" = "Register";
+"login_loginmode" = "Other Registration Method";
+"login_tryout" = "Try directly";
+"login_phone" = "Input phone number";
+"long_password" = "Input password";
+"long_findPassoword" = "Find password";
+/*登陆页面*/
+/*注册页面*/
+"register_getcode" = "Get verification code";
+"register_conPassword" = "Confirm password";
+"register_country" = "Country";
+/*注册页面*/
+"modify_password" = "Modify password";
+/*运动界面*/
+"sport_navtilte"="Activity";
+"sport_plaremark" = "Goals";
+"sport_stepunit" = "steps";
+"sport_steps" = "Steps";
+"sport_distanceunit" = "km";
+"sport_hotunit" = "kcal";
+"sport_plancount" = "Set a goal";
+"sport_distance" = "Distance";
+"sport_calor" = "Calories";
+/*运动界面*/
+
+/*运动界面*/
+"sportdetail_navtilte"="Activity details";
+"sportdetail_day" = "Day";
+"portdetail_week" = "Week";
+"sportdetail_tendat" = "10 days";
+/*运动界面*/
+
+/*睡眠界面*/
+"sleep_navtilte"="Sleep";
+"sleep_today" = "Today";
+"sleep_hour" = "h";
+"sport_minute" = "m";
+"sleep_status" = "Sleep quality";
+"sleep_remark" = "of sleep last night";
+"sleep_deep" = "Deep";
+"sleep_light" = "Light";
+"sleep_awake" = "Awake";
+/*睡眠界面*/
+
+/*睡眠详细界面*/
+"sleepdetail_navtilte"="Sleep patterns";
+"sleepdetail_asleeptime" = "Fell asleep at";
+"sleepdetail_waketime" = "Woke-up at";
+"sleepdetail_sobertime" = "Awake for";
+"sleepdetail_sleeptimelen" = "You slept";
+"sleepdetail_hileleeptimelen" = "Deep sleep";
+"sleepdetail_sobertimelen" = "Light sleep";
+/*睡眠详细界面*/
+
+/*提醒界面*/
+"remind_navtilte"="Notifications";
+"remind_linkstateoff" = "Disconnected";
+"remind_linkstateom" = "Connected";
+"remind_min" = "min";
+
+/*提醒界面*/
+/*闹钟界面*/
+"clockadd_navtitle"="Add Alarm";
+"clock_navtitle"="Alarms";
+"clockadd_repeat"="Repeat";
+"clockadd_tag"="Label";
+"clockadd_confirm"="Confirm";
+"clockadd_cancel"="Cancel";
+"clokadd_can" = "Cancel";
+"clockadd_planks"="Alert if inactive for";
+"clockadd_setting" = "Setting";
+"clockadd_delete" = "Delete alarm";
+"clockadd_no_alarm" = "No alarms";
+"clockadd_hour" = "Hours";
+"clockadd_min" = "Mins";
+"mon" = "一";
+"tue" = "二";
+"wed" = "三";
+"thu" = "四";
+"fri" = "五";
+"sat" = "六";
+"sun" = "日";
+/*闹钟界面*/
+
+/*周*/
+"clockadd_everyday"="Every day";
+"clockadd_navtitle"="Alarm";
+"clockadd_monday"="Mon.";
+"clockadd_tuesday"="Tues.";
+"clockadd_wednesday"="Wed.";
+"clockadd_thursday"="Thur.";
+"clockadd_friday"="Fri.";
+"clockadd_saturday"="Sat.";
+"clockadd_sunday"="Sun.";
+/*周*/
+
+/*久坐设置*/
+"burnset_navtitle"="Inactivity reminder";
+"burnset_end" = "End time";
+"burnset_start" = "Start time";
+"burnset_on" = "ON";
+"burnest_off" = "OFF";
+/*久坐设置*/
+
+/*用户设置界面*/
+"setting_navtitle"="Settings";
+"setting_myinfo"="Profile";
+"setting_myplan"="Goals";
+"setting_boundsmawatch"="Pair my watch";
+"setting_unbindbound"="Unpair my watch";
+"setting_upgrade"="Software update";
+"setting_update"="App Version";
+"setting_help"="";
+"setting_about"="";
+"setting_loginout"="Log out";
+"setting_synchron"="Pedometer synchronization";
+"setting_update_note"="Your software is up to date.";
+"setting_update_App"="New version available";
+"setting_lock_testing" = "Checking";
+"setting_erro_check_version" = "Check failure!";
+"setting_next" = "Next";
+/*用户设置界面*/
+
+/*计步目标*/
+"setplan_navtitle"="Goals";
+"setplan_remark"="Activity goals";
+/*计步目标*/
+
+/*计步目标*/
+"myinfo_navtitle"="Profile";
+"myinfo_account"="Account";
+"myinfo_accountpwd"="Password";
+"myinfo_nickname"="Name";
+"myinfo_age"="Age";
+"myinfo_weight"="Weight";
+"myinfo_height"="Height";
+"myinfo_sex"="Gender";
+"myinfo_step" = "Steps";
+"myinfo_update" = "Update";
+"myinfo_updatesucc" = "Successful update";
+/*计步目标*/
+
+/*提示*/
+"alert_nobangswm"="Turn ON Bluetooth or connect your watch";
+"alert_loginname"="Login name can't be empty";
+"alert_loginpwd"="Password can't be empty";
+"alert_repeaterror"="This number has already been registered";
+"alert_regphone"="Please enter a phone number, mobile phone number can't be empty";
+"alert_regpwd"="Please enter your password, the password can't be empty";
+"alert_regcode"="Please enter the verification code, verification code can't be empty";
+"alert_regcodeerror"="Verification code error, please enter again";
+"alert_beingreg"="Registering";
+"alert_failurereg"="Registration failed";
+"alert_regsucceed"="Successful Registration";
+"alert_loginsucceed"="Successful Login";
+"alert_beginlogin"="Successful Login";
+"alert_networkerro"="Network error, please check the network connection";
+"alert_loginerro"="Login failed, user name or password error";
+"alert_request_timeout" = "Timeout request";
+"alert_disconnetcted_net" = "Network disconnected";
+
+"alert_nickname"="Please enter your name";
+"alert_dateofbirth"="Please enter your age";
+"alert_height"="Please enter your height";
+"alert_weight"="Please enter your weight";
+"alert_sex"="Please select your gender";
+"alert_setmenberinfo"="Setting up your information...";
+"alert_refresh"="Refreshing information";
+"alert_title"="Important!";
+"achieve_btn"="Accomplish";
+"alert_erro"="error";
+"close_btn"="Turn off";
+"alert_saveFa" = "Save failed";
+"alera_shareSucc" = "Share success";
+"alera_share_failu" = "Share failure";
+"alera_verifing" = "Waiting for verification";
+"alera_notexits" = "Account does not exist";
+"alera_systemUp" = "Do you really want to update the software of your watch?";
+"alera_msg" = "Did you wear your watch while sleeping last night?";
+"alera_yes" = "YES";
+"alera_no" = "NO";
+"alera_back" = "back";
+"alera_wait" = "wait";
+"alera_submit" = "submit";
+"alera_loginName" = "Account or password cannot be empty";
+"alera_erro" = "Login Error！";
+"alera_unbond" = "Please disconnect your watch";
+"alera_upgrade" = "Please upgrade your watch";
+"alera_upgrade_function" = "";
+"alera_updateData" = "The phone is syncing, please wait a moment";
+"alera_account_exist"="The account already exists, please try again to Login!";
+"alear_firstCam" = "Press the 3rd button of your watch to take a photo";
+"alear_firstSleep" = "Long press on the first button of your watch to turn sleep mode on/off";
+"alera_nottakCam" = "Device can't support take picture.";
+//绑定界面
+"bound_attention_02" = "Tap on the device named “BLKK” in phone Settings/Bluetooth then “Forget This Device“.";
+"bound_attention_04" = "Tap on the device named “BLKK” in phone Settings/Bluetooth then “Forget This Device“.";
+"bound_remind_02" = "To turn ON/OFF your watch, push and hold the first and third buttons.\n- ON indicator: all 12 LEDs blink.\n- OFF indicator: 6 LEDs blink 3 times.";
+"bound_remind_04" = "To turn ON/OFF your watch, push and hold the first and third buttons.\n- ON indicator: all 12 LEDs blink.\n- OFF indicator: 6 LEDs blink 3 times.";
+
+//OTA页面
+"ota_attention" = "Important!";
+"ota_atten_content" = "Please keep bluetooth On while upgrading your watch, place your watch near the phone, do not lock the screen.";
+"ota_Instructions" = "LEDs show watch is ready for update..";
+"ota_steps" = "1. Tap on the Home Button\n2. Go to “Settings”\n3. Select “Bluetooth”\n4.Select (i) to the right of “BLKK” device listed.\n5. Select “Forget This Device”.\n6. Re-lauch this App and return to this page.\n7. Swipe up from the bottom of the screen to bring up control panel.\n8. Tap the bluetooth icon 2 times to turn if OFF and then ON again.\n9. Return to this App. Wait until 100%. When all LEDs light up on watch. DONE.";
+
+/*新增加*/
+"relieve_band"="Unpair my watch";
+"alert_setprompt"="Successful Setting";
+"alert_bluetoothsend"="Lost link, searching for the watch";
+"alert_alreadyband"="Your watch is already paired";
+"alert_alreadynoband"="Your watch is already unpaired";
+"alert_relieveband"="You will lose your data after unpairing your watch";
+"relievebandbnttitle"="Return Settings";
+"selectConnetcAgain" = "Important: before reconnecting your watch, tap on the device named “BLKK” in phone Settings - Bluetooth then Forget This Device. ";
+"againbandbnttitle"="Pair again";
+"biandnav_tilte"="Jumeler ma montre";
+"choose_bang_watch"="Select the watch to connect";
+"watch_model_forman"="";
+"watch_model_forwomen"="";
+"shops_watch"="Buy a watch";
+"nobangtitle"="Pair later";
+"seatch_title"="Great! Your watch has been found.";
+"beginingseatch_title"="Searching";
+"again_seatch_title"="Search again";
+"binging_title"="Connecting";
+"binging_notif" = "Troubleshooting in case of pairing issue: Kill the app, forget this device in Bluetooth Settings then try again. Do not turn OFF your watch.";
+"seatch_formen"="Turn ON your watch. Wait for a moment, it is almost done!";
+"seatch_forwmen"="(1) When 4 LEDs blink, press and hold the first button for more than 3 secs to pair your watch.\n(2) Accept the Bluetooth pairing request.";
+"seatch_bindsucceed"="Your watch is now connected to the phone. Enjoy your new edition.";
+"begin_experience"="Begin";
+"beginband_seatch"="Searching";
+"choose_bang_watch_title"="Place your watch near the phone and away from other smartwatches";
+"watch_formen_alt"="Tap on ”Begin” to set your app";
+"watch_forwmen_alt"="";
+"dayunit"="";
+//Month//Day
+"monthunit"="";
+/*睡眠状态*/
+"sleep_state_poor"="Poor";
+"sleep_state_average"="Average";
+"sleep_state_comfortable"="Good";
+"sleep_state_enough"="Excellent";
+"sleep_state_lazy"="Lazy";
+"setting_success"="successful setting";
+/*提示*/
+//配对
+"pair_title" = "Match watch";
+"pair_addFriend"="Add you as a friend";
+"pair_consent" = "Accept";
+"pair_disagree" = "Reject";
+//设置
+"set_help_title" = "";
+"set_about_title" = "";
+//其他
+"sdk_start" = "SDK not start";
+"bt_connecting" = " Watch disconnected, reconnecting now, please wait for a moment";
+"now_cid" = "Current CID";
+"send_succ" = "Send successfully";
+"send_fail" = "Send failure";
+"send_ing" = "Sending";
+"reject_succ" = "Reject";
+"status_code" = "Status code";
+"without_camera" = "Without camera";
+"without_flash" = "Without flash";
+"have_friend" = "The call have been paired";
+"setting_time" = "Setting repeat time";
+"connect_blue" = "Connect bluetooth";
+"relieve_assoc" = "Relieving association";
+"lift_succ" = "lifted success";
+"lift_fail" = "lifted failure";
+"login_in" = "Login in";
+"no_update" = "You already have the latest version, you don’t need to update";
+"register_first" = "You have not register, pls register first";
+"AlertViewTest" = "AlertViewTest";
+"verifycodeformaterror" = "verifycodeformaterror";
+"verifycoderightmsg" = "verifycoderightmsg";
+"verifycoderighttitle" = "verifycoderighttitle";
+"cannotgetsmsmsg" = "cannotgetsmsmsg";
+"surephonenumber" = "surephonenumber";
+"codedelaymsg" = "codedelaymsg";
+"verifycode" = "verifycode";
+"verifylabel" = "verifylabel";
+"timelabel" = "timelabel";
+"connect_first" = "Connect your watch first";
+"version" = "Version:";
+"help_band" = "Video to help";
+"help_question" = "Common questions to help";
+"bt_searching" = "Searching, pls try again later";
+"reset_pass" = " Resetting password";
+"change_passsucc" = "Modify success";
+"change_passfail" = "Modify fail";
+"no_login" = "you are not login in, can't make pair";
+"input_number" = " Please enter a paired user phone number";
+"input_nonumber" = "Paired account can't be your own phone number";
+"two_pass_no" = "The password inconsistent, please reset";
+"set_success" = "Successful setting!";
+"set_long_setup" = "Please set the inactivity alert time.";
+"ask_friend" = "Ask friends...";
+"ota_device_update" = "DEVICE FIRMWARE UPDATE";
+"ota_firm" = "Firmware";
+"ota_Tname" = "Name:";
+"ota_Tsize" = "Size:";
+"ota_Ttype" = "Type:";
+"ota_name" = "Firmware Name";
+"ota_size" = "Firmware Size";
+"ota_type" = "Firmware Type";
+"ota_update" = "Firmware Update";
+"ota_upload" = "Upload";
+"ota_wait" = "waiting";
+"ota_upload_app" = "uploading application";
+"refuse_friend" = "refuse to be your friend";

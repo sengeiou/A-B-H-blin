@@ -1,0 +1,124 @@
+/*==============================================================*/
+/* DBMS name:      MySQL 5.0                                    */
+/* Created on:     2015/4/20 10:43:49                           */
+/*==============================================================*/
+
+
+drop table if exists customer;
+
+drop table if exists device;
+
+drop table if exists friend;
+
+drop table if exists message;
+
+drop table if exists sleep;
+
+drop table if exists sport;
+
+/*==============================================================*/
+/* Table: customer                                              */
+/*==============================================================*/
+create table customer
+(
+   _id                  int not null auto_increment comment '用户ID',
+   account              varchar(50) not null default '' comment '用户账号',
+   client_id            varchar(50) not null comment 'app_id',
+   password             varchar(30) not null comment '密码',
+   hight                int default NULL comment '身高',
+   weight               float(16) default NULL comment '体重',
+   sex                  int default NULL comment '性别',
+   birthday             date default NULL comment '生日',
+   header_url           char(200) default NULL comment '头像url',
+   primary key (_id)
+);
+
+alter table customer comment '用户表';
+
+/*==============================================================*/
+/* Table: device                                                */
+/*==============================================================*/
+create table device
+(
+   _id                  int not null auto_increment comment '设备id',
+   device_mac           varchar(50) not null comment '手表mac',
+   deviceName           varchar(0) default NULL comment '手表名称',
+   verison              varchar(0) default NULL comment '系统版本',
+   update_time          date default NULL comment '更新时间',
+   primary key (_id)
+);
+
+alter table device comment '手表设备';
+
+/*==============================================================*/
+/* Table: friend                                                */
+/*==============================================================*/
+create table friend
+(
+   friend_Id            int not null auto_increment comment '朋友ID',
+   user_account         varchar(50) not null comment '用户账号',
+   friend_account       varchar(50) default NULL comment '朋友账号',
+   friend_header        char(200) default NULL comment '朋友头像url',
+   sex                  int default NULL comment '性别',
+   address              varchar(100) default NULL comment '地址',
+   deviceName           varchar(30) default NULL comment '设备名称',
+   device_mac           varchar(50) default NULL comment '设备Mac',
+   isFriend             int not null default 0 comment '默认不是好友',
+   primary key (friend_Id)
+);
+
+alter table friend comment '好友表';
+
+/*==============================================================*/
+/* Table: message                                               */
+/*==============================================================*/
+create table message
+(
+   _id                  int not null auto_increment,
+   content              varchar(200) default NULL comment '消息内容',
+   type                 int default NULL comment '消息种类',
+   sender               varchar(0) default NULL comment '发送者',
+   receiver             varchar(0) default NULL comment '接受者',
+   send_time            time default NULL comment '发送时间',
+   isuccess             int default 0 comment '发送成功与否',
+   primary key (_id)
+);
+
+alter table message comment '消息记录表';
+
+/*==============================================================*/
+/* Table: sleep                                                 */
+/*==============================================================*/
+create table sleep
+(
+   sleep_id             int not null comment '睡眠记录ID',
+   sleep_time           date comment '记录时间',
+  sleep_data
+   time_type            date comment '时间type:入睡、醒来、深睡、浅睡、未进入睡眠',
+   user_id
+   primary key (sleep_id)
+);
+
+alter table tb_sleep comment '睡眠记录表';
+
+/*==============================================================*/
+/* Table: sport                                                 */
+/*==============================================================*/
+create table sport
+(
+   _id                  int not null auto_increment comment '运动记录ID',
+   user_account         varchar(50) default NULL comment '用户账号',
+   type                 int default NULL comment '1.运动项目标示，例如跑步type =1,游泳 type==2;走步 type = 3；',
+   count_date           date default NULL comment '计数日期',
+   distance             float(16) default 0 comment '距离',
+   sport_time           float(16) default NULL comment '运动时间',
+   speed_avg            float(16) default NULL comment '运动平均速度',
+   speed_max            float(16) default NULL comment '最大速度',
+   calorie_Reduct       float(16) default NULL comment '热量消耗',
+   total_dis            float(16) default NULL comment '总距离',
+   total_calorie        float(16) default NULL comment '总热量消耗',
+   primary key (_id)
+);
+
+alter table sport comment '运动数据记录表';
+

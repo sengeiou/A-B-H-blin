@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SmaSelectWatchViewController">
+            <connections>
+                <outlet property="formenlab" destination="YqP-YW-ntE" id="w9S-PS-y0Z"/>
+                <outlet property="forwmenlab" destination="zfZ-E2-tWK" id="CQf-JR-Fzv"/>
+                <outlet property="leftBut" destination="uVm-Pp-e2l" id="SU1-fQ-ZIh"/>
+                <outlet property="nobandbtn" destination="guO-bS-79M" id="vL7-DR-TfY"/>
+                <outlet property="righeBut" destination="Kez-Cu-q63" id="PgG-f5-adV"/>
+                <outlet property="shopbtn" destination="3Yi-KX-gT7" id="kLk-kA-VoO"/>
+                <outlet property="toptitle" destination="rKo-rK-mEi" id="deD-qY-DzZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="watchBut" destination="sWg-Cf-cId" id="ak4-6G-dwo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="login_background" translatesAutoresizingMaskIntoConstraints="NO" id="RAb-Ww-8zL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="选择你要绑定的SMA WATCH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKo-rK-mEi">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="31"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STAR SIN 女款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqP-YW-ntE">
+                    <rect key="frame" x="0.0" y="158" width="320" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STAR SIN 男款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfZ-E2-tWK">
+                    <rect key="frame" x="1" y="272" width="320" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkd-2U-f0e">
+                    <rect key="frame" x="100" y="39" width="120" height="120"/>
+                    <state key="normal" image="bond_1 - 副本">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="bond_1"/>
+                    <connections>
+                        <action selector="womenWatch:" destination="-1" eventType="touchUpInside" id="1Ls-Bf-5cJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVm-Pp-e2l">
+                    <rect key="frame" x="9" y="133" width="44" height="38"/>
+                    <state key="normal" image="band_liftbtn_bg "/>
+                    <connections>
+                        <action selector="selectWatch:" destination="-1" eventType="touchUpInside" id="sgJ-xj-iZL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kez-Cu-q63">
+                    <rect key="frame" x="268" y="133" width="44" height="38"/>
+                    <state key="normal" image="band_rightbtn_bg "/>
+                    <connections>
+                        <action selector="selectWatch:" destination="-1" eventType="touchUpInside" id="g1j-H9-1nG"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guO-bS-79M">
+                    <rect key="frame" x="29" y="353" width="262" height="30"/>
+                    <state key="normal" title="先不绑定">
+                        <color key="titleColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backNoBind:" destination="-1" eventType="touchUpInside" id="SPf-R6-yPU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWg-Cf-cId">
+                    <rect key="frame" x="74" y="56" width="174" height="192"/>
+                    <state key="normal" image="bond_2 - 副本">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="manWatch:" destination="-1" eventType="touchUpInside" id="99E-ZD-svk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yi-KX-gT7">
+                    <rect key="frame" x="61" y="303" width="200" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="购买SMA WATCH" backgroundImage="white_button_background">
+                        <color key="titleColor" name="controlDarkShadowColor" catalog="System" colorSpace="catalog"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shopWatch:" destination="-1" eventType="touchUpInside" id="sbi-e6-m27"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="band_liftbtn_bg " width="11" height="20"/>
+        <image name="band_rightbtn_bg " width="11" height="20"/>
+        <image name="bond_1" width="150" height="150"/>
+        <image name="bond_1 - 副本" width="150" height="150"/>
+        <image name="bond_2 - 副本" width="150" height="150"/>
+        <image name="login_background" width="320" height="504"/>
+        <image name="white_button_background" width="390" height="62"/>
+    </resources>
+</document>

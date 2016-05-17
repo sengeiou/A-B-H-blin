@@ -1,0 +1,325 @@
+/*
+ smalocalizable.strings
+ SmaLife
+ 
+ Created by 有限公司 深圳市 on 15/5/19.
+ Copyright (c) 2015年 SmaLife. All rights reserved.
+ */
+/*登陆页面*/
+"login_navtitle" = "登陆";
+"login_loginbtn" = "登陆";
+"login_registerbtn" = "注册";
+"login_loginmode" = "其他登陆方式";
+"login_tryout" = "直接试用";
+"login_phone" = "请输入手机号码";
+"long_password" = "请输入密码";
+"long_findPassoword" = "忘记密码";
+/*登陆页面*/
+/*注册页面*/
+"register_getcode" = "获取验证码";
+"register_conPassword" = "请再次确认密码";
+"register_country" = "国家";
+/*注册页面*/
+
+"modify_password" = "修改密码";
+
+/*运动界面*/
+"sport_navtilte"="运动";
+"sport_plaremark" = "目标";
+"sport_stepunit" = "步";
+"sport_steps" = "步数";
+"sport_distanceunit" = "千米";
+"sport_hotunit" = "千卡";
+"sport_plancount" = "未设目标数";
+"sport_distance" = "路程";
+"sport_calor" = "卡路里";
+/*运动界面*/
+
+/*运动界面*/
+"sportdetail_navtilte"="运动详细";
+"sportdetail_day" = "天";
+"portdetail_week" = "周";
+"sportdetail_tendat" = "10天";
+
+/*运动界面*/
+
+/*睡眠界面*/
+"sleep_navtilte"="睡眠";
+"sleep_today" = "今天";
+"sleep_hour" = "小时";
+"sport_minute" = "分钟";
+"sleep_status" = "睡眠质量";
+"sleep_remark" = "昨晚睡眠时间";
+"sleep_deep" = "深度睡眠";
+"sleep_light" = "浅睡";
+"sleep_awake" = "醒来";
+/*睡眠界面*/
+
+/*睡眠详细界面*/
+"sleepdetail_navtilte"="睡眠详细";
+"sleepdetail_asleeptime" = "入睡时间";
+"sleepdetail_waketime" = "醒来时间";
+"sleepdetail_sobertime" = "清醒时间";
+"sleepdetail_sleeptimelen" = "睡眠时长";
+"sleepdetail_hileleeptimelen" = "深睡时长";
+"sleepdetail_sobertimelen" = "浅睡时长";
+
+/*睡眠详细界面*/
+
+/*提醒界面*/
+"remind_navtilte"="提醒";
+"remind_linkstateoff" = "已断开";
+"remind_linkstateom" = "已链接";
+
+/*提醒界面*/
+/*闹钟界面*/
+"clockadd_navtitle"="添加闹钟";
+"clock_navtitle"="闹钟";
+"clockadd_repeat"="重复";
+"clockadd_tag"="标签";
+"clockadd_confirm"="确定";
+"clockadd_cancel"="取 消";
+"clokadd_can" = "取消";
+"clockadd_planks"="久坐时长";
+"clockadd_setting" = "请设置";
+"remind_min" = "分钟";
+"clockadd_delete" = "删除闹钟";
+"clockadd_no_alarm" = "未设置闹钟";
+"clockadd_hour" = "小时";
+"clockadd_min" = "分钟";
+"mon" = "Mon";
+"tue" = "Tue";
+"wed" = "Wed";
+"thu" = "Thu";
+"fri" = "Fri";
+"sat" = "Sat";
+"sun" = "Sun";
+/*闹钟界面*/
+
+/*周*/
+"clockadd_everyday"="每天";
+"clockadd_navtitle"="重复";
+"clockadd_monday"="周一";
+"clockadd_tuesday"="周二";
+"clockadd_wednesday"="周三";
+"clockadd_thursday"="周四";
+"clockadd_friday"="周五";
+"clockadd_saturday"="周六";
+"clockadd_sunday"="周日";
+/*周*/
+
+/*久坐设置*/
+"burnset_navtitle"="久坐提醒";
+"burnset_end" = "结束时间";
+"burnset_start" = "开始时间";
+"burnset_on" = "开启";
+"burnest_off" = "关闭";
+/*久坐设置*/
+
+/*用户设置界面*/
+"setting_navtitle"="设置";
+"setting_myinfo"="个人信息";
+"setting_myplan"="个人目标";
+"setting_boundsmawatch"="绑定手表";
+"setting_unbindbound"="解绑";
+"setting_upgrade"="固件升级";
+"setting_update"="App版本";
+"setting_help"="帮助";
+"setting_about"="关于Nevo蒙马特系列";
+"setting_loginout"="退出登录";
+"setting_synchron"="实时同步";
+"setting_update_note"="当前已是最新版本";
+"setting_update_App"="检测到新版本";
+"setting_lock_testing" = "正在检测...";
+"setting_erro_check_version" = "检测失败";
+"setting_next" = "下一步";
+/*用户设置界面*/
+
+/*计步目标*/
+"setplan_navtitle"="计步目标";
+"setplan_remark"="运动目标";
+/*计步目标*/
+
+/*计步目标*/
+"myinfo_navtitle"="个人信息";
+"myinfo_account"="账号";
+"myinfo_accountpwd"="密码";
+"myinfo_nickname"="昵称";
+"myinfo_age"="年龄";
+"myinfo_weight"="体重";
+"myinfo_height"="身高";
+"myinfo_sex"="性别";
+"myinfo_step" = "步";
+"myinfo_update" = "修改信息";
+"myinfo_updatesucc" = "修改成功";
+
+/*计步目标*/
+
+/*提示*/
+"alert_nobangswm"="未绑定蓝牙,请绑定蓝牙";
+"alert_loginname"="登录名不可为空";
+"alert_loginpwd"="登录密码不可为空";
+"alert_repeaterror"="此号码已经被注册过";
+"alert_regphone"="请输入手机号，手机号码不能为空";
+"alert_regpwd"="请输入您的密码，密码不能为空";
+"alert_regcode"="请输入验证码，验证码不能为空";
+"alert_regcodeerror"="验证码错误，请重新输入";
+"alert_beingreg"="正在注册...";
+"alert_failurereg"="注册失败...";
+"alert_regsucceed"="注册成功...";
+"alert_loginsucceed"="登录成功…";
+"alert_beginlogin"="登录成功…";
+"alert_networkerro"="网络错误,请检查网络连接";
+"alert_loginerro"="登陆失败，用户名或密码错误";
+"alert_request_timeout" = "请求超时";
+"alert_disconnetcted_net" = "网络已断开";
+
+"alert_nickname"="请输入您的昵称";
+"alert_dateofbirth"="请输入出生日期";
+"alert_height"="请输入您的身高";
+"alert_weight"="请输入您的体重";
+"alert_sex"="请选择您的性别";
+"alert_setmenberinfo"="正在设置您的信息...";
+"alert_refresh"="正在刷新数据...";
+"alert_title"="温馨提示";
+"achieve_btn"="完成";
+"alert_erro"="错误";
+"close_btn"="关闭";
+"alert_saveFa" = "保存失败";
+"alera_shareSucc" = "分享成功";
+"alera_share_failu" = "分享失败";
+"alera_verifing" = "等待好友验证";
+"alera_notexits" = "账号不存在";
+"alera_systemUp" = "是否进入固件升级";
+"alera_msg" = "您昨晚睡眠是否有带 Watch";
+"alera_yes" = "是";
+"alera_no" = "否";
+"alera_back" = "返回";
+"alera_wait" = "等待";
+"alera_submit" = "提交";
+"alera_loginName" = "登录名称不可以为空";
+"alera_erro" = "账号或密码错误";
+"alera_unbond" = "是否解除手表绑定？";
+"alera_upgrade" = "请进行固件升级";
+"alera_upgrade_function" = "新增功能：短信提醒支持，连接更稳定";
+"alera_updateData" = "手机未完成数据同步，请稍候";
+"alera_account_exist"="该账号已存在，请登录！";
+"alear_firstCam" = "按住手表的第三个按钮";
+"alear_firstSleep" = "长按手表的第一个按钮设置睡眠模式的开关";
+"alera_nottakCam" = "设备不支持拍照功能";
+//绑定界面
+"bound_attention_02" = "请在系统设置-蓝牙-忽略SM02设备";
+"bound_attention_04" = "请在系统设置-蓝牙-忽略SM04设备";
+"bound_remind_02" = "技术支持：如果你的Nevo未被找到，在手机蓝牙链接<BLKK>上设置“忽略此蓝牙”，然后重启app，再试一次。确保手表是正常运作的（如果仍然没有找到，你需要更换电池）";
+"bound_remind_04" = "技术支持：如果你的Nevo未被找到，在手机蓝牙链接<BLKK>上设置“忽略此蓝牙”，然后重启app，再试一次。确保手表是正常运作的（如果仍然没有找到，你需要更换电池）";
+//OTA页面
+"ota_attention" = "注意事项:";
+"ota_atten_content" = "蓝牙连接正常，手表靠近手机，不要锁屏，系统蓝牙禁止连接其他设备";
+"ota_Instructions" = "LEDs show watch is ready for update..";
+"ota_steps" = "1. Tap on the Home Button\n2. Go to “Settings”\n3. Select “Bluetooth”\n4.Select (i) to the right of “BLKK” device listed.\n5. Select “Forget This Device”.\n6. Re-lauch this App and return to this page.\n7. Swipe up from the bottom of the screen to bring up control panel.\n8. Tap the bluetooth icon 2 times to turn if OFF and then ON again.\n9. Return to this App. Wait until 100%. When all LEDs light up on watch. DONE.";
+
+/*新增加*/
+"relieve_band"="解绑";
+"alert_setprompt"="设定成功";
+"alert_bluetoothsend"="链接已断开，蓝牙正在扫描";
+"alert_alreadyband"="您已绑定,请解绑后才能重新绑定";
+"alert_alreadynoband"="您未绑定或已经解绑，无需解绑。";
+"alert_relieveband"="您确定解绑,解除绑定后本地数据会丢失";
+"selectConnetcAgain" = "在重新连接你的手表前，请在蓝牙设置中点击 ”BLKK”“忽略此设备”";
+"relievebandbnttitle"="解绑成功";
+"againbandbnttitle"="重新连接";
+"biandnav_tilte"="绑定手表";
+"choose_bang_watch"="选择你要绑定的 WATCh";
+"watch_model_forman"="STAR SIN 女款";
+"watch_model_forwomen"="Nevo蒙马特系列42毫米";
+"shops_watch"="购买 WATCH";
+"nobangtitle"="暂不绑定";
+"seatch_title"="你的Nevo已经被找到";
+"beginingseatch_title"="正在搜查";
+"again_seatch_title"="重新搜索";
+"binging_title"="绑定中..";
+"seatch_formen"="如手表未开启，请先长按手表第三颗按钮3-5秒，直到全部led灯闪烁。如手表已开启，请将手表靠近手机，等待下一步提示";
+"seatch_forwmen"="（1）手表四颗led灯闪烁时，请长按手表第一颗按钮至连接成功。\n（2）手机弹出“蓝牙配对请求”时，请点击“配对";
+"binging_notif" = "技术支持：如果你的Nevo未被找到，在手机蓝牙链接<BLKK>上设置“忽略此蓝牙”，然后重启app，再试一次。确保手表是正常运作的（如果仍然没有找到，你需要更换电池）";
+"seatch_bindsucceed"="您的手表现在已经链接上手机，可以使用新版本";
+"begin_experience"="开始体验";
+"beginband_seatch"="正在搜查...";
+"choose_bang_watch_title"="请将手表靠近手机,并远离其他手表";
+"watch_formen_alt"="回到开始，设置你的app";
+"watch_forwmen_alt"="女表双击手表确认绑定";
+"dayunit"="日";
+"monthunit"="月";
+/*睡眠状态*/
+"sleep_state_poor"="差";
+"sleep_state_average"="差";
+"sleep_state_comfortable"="好";
+"sleep_state_enough"="优";
+"sleep_state_lazy"="懒惰";
+"setting_success"="设置成功";
+/*提示*/
+//配对
+"pair_title" = "手表配对";
+"pair_addFriend" = "申请加你为好友";
+"pair_consent" = "同意";
+"pair_disagree" = "不同意";
+//设置
+"set_help_title" = "帮助";
+"set_about_title" = "关于我们";
+//其他
+"sdk_start" = "SDK未启动";
+"bt_connecting" = "蓝牙已断开,正重新连接,请稍等...";
+"now_cid" = "当前的CID";
+"send_succ" = "发送成功";
+"send_fail" = "发送失败";
+"send_ing" = "正在发送";
+"reject_succ" = "拒绝成功";
+"status_code" = "状态码";
+"without_camera" = "您的设备没有拍照功能";
+"without_flash" = "您的设备没有闪光灯功能";
+"have_friend" = "对方已配对其他好友";
+"setting_time" = "请设置重复时间";
+"connect_blue" = "请绑定蓝牙";
+"relieve_assoc" = "正在解除关联";
+"lift_succ" = "解除成功";
+"lift_fail" = "解除失败";
+"login_in" = "正在登录";
+"no_update" = "当前蓝牙版本是最新版本，无需更新";
+"register_first" = "您未注册，请重先注册";
+"AlertViewTest" = "查看测试提醒";
+"verifycodeformaterror" = "验证码格式错误";
+"verifycoderightmsg" = "正确信息验证码";
+"verifycoderighttitle" = "验证码正确的标题";
+"cannotgetsmsmsg" = "不能获得短信信息";
+"surephonenumber" = "确认电话号码";
+"codedelaymsg" = "验证码推迟";
+"verifycode" = "验证码";
+"verifylabel" = "验证标签";
+"timelabel" = "时间标签";
+"connect_first" = "请链接你的手表";
+"version" = "版本:";
+"help_band" = "视频帮助";
+"help_question" = "常见问题帮助";
+"bt_searching" = "蓝牙扫描中,请稍候在试...";
+"reset_pass" = "正在重置密码";
+"change_passsucc" = "修改密码成功";
+"change_passfail" = "修改密码失败";
+"no_login" = "您未登录，不能进行配对";
+"input_number" = "请输入配对用户账号";
+"input_nonumber" = "好友不能为本账号";
+"two_pass_no" = "两次密码输入不一致，请重新输入";
+"set_success" = "设定成功!";
+"set_long_setup" = "请设置久坐时长";
+"ask_friend" = "正在请求...";
+"ota_device_update" = "设备固件更新";
+"ota_firm" = "固件";
+"ota_Tname" = "名称:";
+"ota_Tsize" = "大小:";
+"ota_Ttype" = "类型:";
+"ota_name" = "固件名称";
+"ota_size" = "固件大小";
+"ota_type" = "固件类型";
+"ota_update" = "固件更新";
+"ota_upload" = "下载";
+"ota_wait" = "等待中...";
+"ota_upload_app" = "正在上传应用程序...";
+"refuse_friend" = "拒绝成为你的好友";

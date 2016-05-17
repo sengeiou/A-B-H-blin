@@ -1,0 +1,37 @@
+//
+//  SmaWatch.pch
+//  SmaLife
+//
+//  Created by 有限公司 深圳市 on 15/4/3.
+//  Copyright (c) 2015年 SmaLife. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Common.h"
+#import "UIImage+CKQ.h"
+#import "MBProgressHUD+MJ.h"
+#import "UIBarButtonItem+CKQ.h"
+#import "SmaCommonStudio.h"
+#import "SmaNoTabBarViewController.h"
+/*导入蓝牙类库*/
+#import <CoreBluetooth/CoreBluetooth.h>
+/*蓝牙工具类*/
+#import "SmaBusinessTool.h"
+//闹钟对象
+#import "SmaAlarmClockInfo.h"
+/*蓝牙操作类*/
+#import "SamCoreBlueTool.h"
+
+#import "SmaUserInfo.h"
+
+#import "SmaAccountTool.h"
+#import "WCUtil.h"
+
+#import <SMS_SDK/SMS_SDK.h>
+
+#import "SmaAnalysisWebServiceTool.h"
+
+#endif

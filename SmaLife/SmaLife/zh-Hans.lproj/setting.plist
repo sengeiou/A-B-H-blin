@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>settings</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>setting_myinfo</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_myplan</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_boundsmawatch</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_unbindbound</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_update</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_upgrade</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_help</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>setting_about</string>
+			</dict>
+		</array>
+		<key>name</key>
+		<string>通用设置</string>
+	</dict>
+</array>
+</plist>
