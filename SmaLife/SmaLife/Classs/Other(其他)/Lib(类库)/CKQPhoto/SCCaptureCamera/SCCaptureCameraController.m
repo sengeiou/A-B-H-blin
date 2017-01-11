@@ -88,7 +88,9 @@
     }
     return self;
 }
-
+- (void)updateUI{
+  SmaBleMgr.delegate=self;
+}
 
 - (void)viewDidLoad
 {
@@ -100,7 +102,7 @@
     if (self.navigationController && !self.navigationController.navigationBarHidden) {
         self.navigationController.navigationBarHidden = YES;
     }
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateUI) name:@"UPDATEUI" object:nil];
     //status bar
     if (!self.navigationController) {
         _isStatusBarHiddenBeforeShowCamera = [UIApplication sharedApplication].statusBarHidden;

@@ -283,8 +283,12 @@
         if (!BLEversion) {
             BLEversion = @"";
         }
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@",SmaLocalizedString(@"version"),BLEversion];
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@",SmaLocalizedString(@"version"),app_Version];
         cell.detailTextLabel.font = [UIFont systemFontOfSize:13];
+        if ([[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue < 170) {
+            cell.detailTextLabel.attributedText = [self appendAttributedString:[NSString stringWithFormat:@"·%@ %@",SmaLocalizedString(@"version"),BLEversion]];
+        }
+
     }
     //    if(indexPath.row==5)
     //    {
@@ -512,7 +516,7 @@
                 });
                 return;
             }
-            if ([[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue < 130) {
+            if ([[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue < 170) {
                 OTAalert = [[UIAlertView alloc]initWithTitle:nil message:SmaLocalizedString(@"alera_systemUp") delegate:self cancelButtonTitle:SmaLocalizedString(@"clockadd_cancel") otherButtonTitles:SmaLocalizedString(@"clockadd_confirm"), nil];
                 [OTAalert show];
             }
@@ -661,11 +665,11 @@
         NSString *userInfoName = [SmaAccountTool userInfo].watchName;
 //        userInfoName = nil;  PION_V1.3.0
         NSLog(@"---___|+++==%@",userInfoName);
-        if ([userInfoName isEqualToString:@"SMA-04"] || [userInfoName isEqualToString:@"SM04"]) {
-            viewCtl.bindName = [[NSBundle mainBundle] pathForResource:@"PION_V1.3.0" ofType:@"hex"];
+        if ([userInfoName isEqualToString:@"BLKK"] || [userInfoName isEqualToString:@"BLKK"]) {
+            viewCtl.bindName = [[NSBundle mainBundle] pathForResource:@"BLKK_V1.6.0" ofType:@"hex"];
         }
         else{
-            viewCtl.bindName = [[NSBundle mainBundle] pathForResource:@"PION_V1.3.0" ofType:@"hex"];
+            viewCtl.bindName = [[NSBundle mainBundle] pathForResource:@"BLKK_V1.6.0" ofType:@"hex"];
         }
         
         [self.navigationController pushViewController:viewCtl animated:YES];
@@ -783,4 +787,12 @@ static float i = 0.1; float A = 0;
     }
 }
 
+- (NSMutableAttributedString *)appendAttributedString:(NSString *)attrString{
+    NSMutableAttributedString *hour = [[NSMutableAttributedString alloc] initWithString:attrString];
+    [hour addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:20] range:NSMakeRange(0, 1)];
+    [hour addAttribute:NSForegroundColorAttributeName
+                 value:(id)[UIColor redColor] range:NSMakeRange(0, 1)];
+    [hour addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:13] range:NSMakeRange(1, attrString.length-1)];
+    return hour;
+}
 @end

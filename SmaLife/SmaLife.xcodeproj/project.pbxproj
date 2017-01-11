@@ -58,9 +58,7 @@
 		EE15F7F21BB0FF9300C70A38 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE15F7F11BB0FF9300C70A38 /* libicucore.tbd */; };
 		EE169EE41BC6577A00DE35B4 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE169EE11BC6577A00DE35B4 /* libMobClickLibrary.a */; };
 		EE25DDDF1B01F9F5004EA656 /* SmaAlarmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE25DDDD1B01F9F5004EA656 /* SmaAlarmTableViewCell.m */; };
-		EE30AD621C9AB40100AB4E9F /* sma02_2_pion1.hex in Resources */ = {isa = PBXBuildFile; fileRef = EE30AD611C9AB40100AB4E9F /* sma02_2_pion1.hex */; };
-		EE3FBFD01B20571000B7AEEB /* SMA-04_V1.0.9.hex in Resources */ = {isa = PBXBuildFile; fileRef = EE3FBFCE1B20571000B7AEEB /* SMA-04_V1.0.9.hex */; };
-		EE3FBFD11B20571000B7AEEB /* SMA-04_V2.0.0.hex in Resources */ = {isa = PBXBuildFile; fileRef = EE3FBFCF1B20571000B7AEEB /* SMA-04_V2.0.0.hex */; };
+		EE3DBC821DC196370005C9F9 /* BLKK_V1.6.0.hex in Resources */ = {isa = PBXBuildFile; fileRef = EE3DBC811DC196370005C9F9 /* BLKK_V1.6.0.hex */; };
 		EE5169C31B03504B00F43802 /* SmaWeekSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5169C21B03504B00F43802 /* SmaWeekSelectController.m */; };
 		EE5F02A51B0DD16D0086333D /* HYActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5F02A41B0DD16D0086333D /* HYActivityView.m */; };
 		EE88C8841BFACA2C000206E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE88C8861BFACA2C000206E2 /* Localizable.strings */; };
@@ -72,7 +70,6 @@
 		EE90A91A1AE50CA300615F3C /* SmaSportDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE90A9181AE50CA300615F3C /* SmaSportDetailViewController.xib */; };
 		EE92F5EA1BF1BF970094CF38 /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE92F5EC1BF1BF970094CF38 /* setting.plist */; };
 		EE92F5F01BF1BFFF0094CF38 /* country.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE92F5F21BF1BFFF0094CF38 /* country.plist */; };
-		EE949E331C88176C00DCEC81 /* PION_V1.3.0.hex in Resources */ = {isa = PBXBuildFile; fileRef = EE949E321C88176C00DCEC81 /* PION_V1.3.0.hex */; };
 		EE9B2DBB1B1046C3004FDD40 /* SmaHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B2DBA1B1046C3004FDD40 /* SmaHelpViewController.m */; };
 		EE9B2DBE1B104B6F004FDD40 /* SmaAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B2DBD1B104B6F004FDD40 /* SmaAboutViewController.m */; };
 		EEA68CA51B020657007013AE /* SmaAlarMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA68CA31B020657007013AE /* SmaAlarMainController.m */; };
@@ -122,8 +119,6 @@
 		EEBD22091B1D46E800E71B05 /* UnzipFirmware.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBD21ED1B1D46E800E71B05 /* UnzipFirmware.m */; };
 		EEBDB4471AEF6A7300BA1123 /* PercentageChart.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBDB4441AEF6A7300BA1123 /* PercentageChart.m */; };
 		EEBDB4481AEF6A7300BA1123 /* PercentageChartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBDB4461AEF6A7300BA1123 /* PercentageChartLayer.m */; };
-		EEBFAFA51B40EBCA00A78FB0 /* SMA-02_V3.0.4.hex in Resources */ = {isa = PBXBuildFile; fileRef = EEBFAFA31B40EBCA00A78FB0 /* SMA-02_V3.0.4.hex */; };
-		EEBFAFA61B40EBCA00A78FB0 /* SMA-04_V3.0.4.hex in Resources */ = {isa = PBXBuildFile; fileRef = EEBFAFA41B40EBCA00A78FB0 /* SMA-04_V3.0.4.hex */; };
 		EEC205291AF75F3900F6EED7 /* SamCoreBlueTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC205281AF75F3900F6EED7 /* SamCoreBlueTool.m */; };
 		EED1CBEC1AEE34B300C513B5 /* NSDictionary-DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = EED1CBCF1AEE34B300C513B5 /* NSDictionary-DeepMutableCopy.m */; };
 		EED1CBED1AEE34B300C513B5 /* SMS_HYZBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED1CBD11AEE34B300C513B5 /* SMS_HYZBadgeView.m */; };
@@ -210,7 +205,6 @@
 		EEE5FE781ADD267F006402F2 /* SmaAlarmClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE5FE761ADD267F006402F2 /* SmaAlarmClockViewController.xib */; };
 		EEE634FA1B0B400700D80F79 /* MyTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE634FC1B0B400700D80F79 /* MyTable.storyboard */; };
 		EEE86D551BF2D3D200ECAEA8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE86D541BF2D3D200ECAEA8 /* AssetsLibrary.framework */; };
-		EEEBC5711C868EA200D77190 /* PION_V1.1.0.hex in Resources */ = {isa = PBXBuildFile; fileRef = EEEBC5701C868EA200D77190 /* PION_V1.1.0.hex */; };
 		EEF09C751ACE1FAC00C4616C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF09C741ACE1FAC00C4616C /* main.m */; };
 		EEF09C8F1ACE1FAC00C4616C /* SmaLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF09C8E1ACE1FAC00C4616C /* SmaLifeTests.m */; };
 		EEF09CA71ACE223000C4616C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF09CA51ACE223000C4616C /* AppDelegate.m */; };
@@ -360,9 +354,7 @@
 		EE169EE31BC6577A00DE35B4 /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
 		EE25DDDC1B01F9F5004EA656 /* SmaAlarmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmaAlarmTableViewCell.h; sourceTree = "<group>"; };
 		EE25DDDD1B01F9F5004EA656 /* SmaAlarmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmaAlarmTableViewCell.m; sourceTree = "<group>"; };
-		EE30AD611C9AB40100AB4E9F /* sma02_2_pion1.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sma02_2_pion1.hex; sourceTree = "<group>"; };
-		EE3FBFCE1B20571000B7AEEB /* SMA-04_V1.0.9.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SMA-04_V1.0.9.hex"; sourceTree = "<group>"; };
-		EE3FBFCF1B20571000B7AEEB /* SMA-04_V2.0.0.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SMA-04_V2.0.0.hex"; sourceTree = "<group>"; };
+		EE3DBC811DC196370005C9F9 /* BLKK_V1.6.0.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BLKK_V1.6.0.hex; sourceTree = "<group>"; };
 		EE5169C11B03504B00F43802 /* SmaWeekSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmaWeekSelectController.h; sourceTree = "<group>"; };
 		EE5169C21B03504B00F43802 /* SmaWeekSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmaWeekSelectController.m; sourceTree = "<group>"; };
 		EE5F02A31B0DD16D0086333D /* HYActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYActivityView.h; sourceTree = "<group>"; };
@@ -383,7 +375,6 @@
 		EE92F5F11BF1BFFF0094CF38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/country.plist; sourceTree = "<group>"; };
 		EE92F5F31BF1C0030094CF38 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/country.plist"; sourceTree = "<group>"; };
 		EE93AC561CE1735F00F81D16 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EE949E321C88176C00DCEC81 /* PION_V1.3.0.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PION_V1.3.0.hex; sourceTree = "<group>"; };
 		EE9B2DB91B1046C3004FDD40 /* SmaHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmaHelpViewController.h; sourceTree = "<group>"; };
 		EE9B2DBA1B1046C3004FDD40 /* SmaHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmaHelpViewController.m; sourceTree = "<group>"; };
 		EE9B2DBC1B104B6F004FDD40 /* SmaAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmaAboutViewController.h; sourceTree = "<group>"; };
@@ -485,8 +476,6 @@
 		EEBDB4451AEF6A7300BA1123 /* PercentageChartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentageChartLayer.h; sourceTree = "<group>"; };
 		EEBDB4461AEF6A7300BA1123 /* PercentageChartLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentageChartLayer.m; sourceTree = "<group>"; };
 		EEBEDE221C0EF5530093EB55 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		EEBFAFA31B40EBCA00A78FB0 /* SMA-02_V3.0.4.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SMA-02_V3.0.4.hex"; sourceTree = "<group>"; };
-		EEBFAFA41B40EBCA00A78FB0 /* SMA-04_V3.0.4.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SMA-04_V3.0.4.hex"; sourceTree = "<group>"; };
 		EEC205271AF75F3900F6EED7 /* SamCoreBlueTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SamCoreBlueTool.h; sourceTree = "<group>"; };
 		EEC205281AF75F3900F6EED7 /* SamCoreBlueTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamCoreBlueTool.m; sourceTree = "<group>"; };
 		EED1CBCE1AEE34B300C513B5 /* NSDictionary-DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-DeepMutableCopy.h"; sourceTree = "<group>"; };
@@ -620,7 +609,6 @@
 		EEE634FB1B0B400700D80F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MyTable.storyboard; sourceTree = "<group>"; };
 		EEE634FD1B0B400900D80F79 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/MyTable.storyboard"; sourceTree = "<group>"; };
 		EEE86D541BF2D3D200ECAEA8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		EEEBC5701C868EA200D77190 /* PION_V1.1.0.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PION_V1.1.0.hex; sourceTree = "<group>"; };
 		EEF09C6F1ACE1FAC00C4616C /* SmaLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmaLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF09C731ACE1FAC00C4616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEF09C741ACE1FAC00C4616C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -993,13 +981,7 @@
 		EE3FBFCD1B20571000B7AEEB /* firmwares */ = {
 			isa = PBXGroup;
 			children = (
-				EE30AD611C9AB40100AB4E9F /* sma02_2_pion1.hex */,
-				EE949E321C88176C00DCEC81 /* PION_V1.3.0.hex */,
-				EEEBC5701C868EA200D77190 /* PION_V1.1.0.hex */,
-				EE3FBFCE1B20571000B7AEEB /* SMA-04_V1.0.9.hex */,
-				EE3FBFCF1B20571000B7AEEB /* SMA-04_V2.0.0.hex */,
-				EEBFAFA31B40EBCA00A78FB0 /* SMA-02_V3.0.4.hex */,
-				EEBFAFA41B40EBCA00A78FB0 /* SMA-04_V3.0.4.hex */,
+				EE3DBC811DC196370005C9F9 /* BLKK_V1.6.0.hex */,
 			);
 			path = firmwares;
 			sourceTree = "<group>";
@@ -2235,6 +2217,7 @@
 					EEF09C6E1ACE1FAC00C4616C = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = VHVLE5FL92;
+						ProvisioningStyle = Manual;
 					};
 					EEF09C871ACE1FAC00C4616C = {
 						CreatedOnToolsVersion = 6.2;
@@ -2273,12 +2256,9 @@
 				EEDB56EB1AD8E62200790ECD /* camera_line@2x.png in Resources */,
 				EEE634FA1B0B400700D80F79 /* MyTable.storyboard in Resources */,
 				EED559121ADB540D002A9C59 /* SmaTravelViewController.xib in Resources */,
-				EE949E331C88176C00DCEC81 /* PION_V1.3.0.hex in Resources */,
 				EE90A91A1AE50CA300615F3C /* SmaSportDetailViewController.xib in Resources */,
 				EEDB56ED1AD8E62200790ECD /* camera_line_h@2x.png in Resources */,
 				EEDB56EC1AD8E62200790ECD /* camera_line_h.png in Resources */,
-				EEEBC5711C868EA200D77190 /* PION_V1.1.0.hex in Resources */,
-				EEBFAFA51B40EBCA00A78FB0 /* SMA-02_V3.0.4.hex in Resources */,
 				EEDB56FE1AD8E62200790ECD /* switch_camera_h.png in Resources */,
 				EEDC5E3C1AD7F70B00AE8436 /* SmaMainRegViewController.xib in Resources */,
 				EEDC5E371AD7CFE000AE8436 /* SmaSportMainViewController.xib in Resources */,
@@ -2290,7 +2270,6 @@
 				EEDB57191AD8ECD500790ECD /* close_cha.png in Resources */,
 				EEDB56F71AD8E62200790ECD /* flashing_on@2x.png in Resources */,
 				EEF4B2211AD3B0240014A06E /* MBProgressHUD.bundle in Resources */,
-				EEBFAFA61B40EBCA00A78FB0 /* SMA-04_V3.0.4.hex in Resources */,
 				EE8B07E31B47717A00C53C2D /* about.png in Resources */,
 				EEDB56F21AD8E62200790ECD /* flashing_auto.png in Resources */,
 				EED1CBF71AEE34B300C513B5 /* smssdk.bundle in Resources */,
@@ -2306,7 +2285,6 @@
 				EEF658971B1FF0E500D9A5C7 /* Main.storyboard in Resources */,
 				EEDB56FD1AD8E62200790ECD /* switch_camera@2x.png in Resources */,
 				EE0F2DC61BB151EC007165BA /* SMS_SDKLocalizable.strings in Resources */,
-				EE30AD621C9AB40100AB4E9F /* sma02_2_pion1.hex in Resources */,
 				EEDB56F61AD8E62200790ECD /* flashing_on.png in Resources */,
 				EE92F5EA1BF1BF970094CF38 /* setting.plist in Resources */,
 				EEDB57101AD8E62200790ECD /* SVProgressHUD.bundle in Resources */,
@@ -2320,8 +2298,7 @@
 				EEBD22081B1D46E800E71B05 /* SSZipArchiveLicense.rtf in Resources */,
 				EE0F2E031BB1522C007165BA /* Resource.bundle in Resources */,
 				EE0F2E061BB1522C007165BA /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				EE3FBFD01B20571000B7AEEB /* SMA-04_V1.0.9.hex in Resources */,
-				EE3FBFD11B20571000B7AEEB /* SMA-04_V2.0.0.hex in Resources */,
+				EE3DBC821DC196370005C9F9 /* BLKK_V1.6.0.hex in Resources */,
 				EE92F5F01BF1BFFF0094CF38 /* country.plist in Resources */,
 				EEFCA36D1BF09CCA0048D169 /* SmaSelectWatchViewController.xib in Resources */,
 				EE0F2E0B1BB1522C007165BA /* ShareSDKFlatShareViewUI.bundle in Resources */,
@@ -2667,7 +2644,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Shaohui Liang (AUMJG57LWL)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shaohui Liang (AUMJG57LWL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VHVLE5FL92;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2705,7 +2683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louispion.smart.blink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c9443f5b-40d5-44ab-8afd-f17332460a67";
+				PROVISIONING_PROFILE_SPECIFIER = All_development_text;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2715,8 +2693,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Smart Care Technology Co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Smart Care Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sagitta Internet GmbH (DAC469FC8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = VHVLE5FL92;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2754,7 +2733,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louispion.smart.blink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f0a7b9ee-1ae3-4ecd-a461-c0a128223092";
+				PROVISIONING_PROFILE_SPECIFIER = DistributionWithBlink;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

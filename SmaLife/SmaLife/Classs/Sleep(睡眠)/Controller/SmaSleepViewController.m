@@ -697,7 +697,7 @@ static  int  deffInt=10;
     }
     
     else{
-        if (slBeTime >= 1320) {
+        if (slBeTime >= 1320 && slBeTime<= 1440) {
             simSleep = 1440 - slBeTime + slEnTime;
             
         }

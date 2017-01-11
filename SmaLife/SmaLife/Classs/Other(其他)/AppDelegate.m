@@ -198,7 +198,7 @@ NSString* const NotificationActionTwoIdent = @"ACTION_TWO";
     //上传 APPSTORE
     //    [self startSdkWith:ksubAppId appKey:ksubAppKey appSecret:ksubAppSecret];
     // [2]:注册APNS
-        [self registerRemoteNotification];
+//        [self registerRemoteNotification];
     
     // [2-EXT]: 获取启动时收到的APN
     NSDictionary* message = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
@@ -212,25 +212,25 @@ NSString* const NotificationActionTwoIdent = @"ACTION_TWO";
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
     
     //test
-    center = [[CTCallCenter alloc] init];
-    center.callEventHandler = ^(CTCall *call) {
-        if (call.callState == CTCallStateDialing){
-            NSLog(@"Call Dialing");
-        } else if (call.callState == CTCallStateIncoming) {
-            NSLog(@"Call Incoming");
-            [SmaBleMgr setphonespark];
-            
-        } else if (call.callState == CTCallStateConnected){
-            NSLog(@"Call Connected");
-            
-        } else if (call.callState == CTCallStateDisconnected){
-            NSLog(@"Call Disconnected");
-            
-        }
-        
-        //        NSString *number = CTCallCopyAddress(NULL, call);
-        //        NSLog(@"number: %@", number);
-    };
+//    center = [[CTCallCenter alloc] init];
+//    center.callEventHandler = ^(CTCall *call) {
+//        if (call.callState == CTCallStateDialing){
+//            NSLog(@"Call Dialing");
+//        } else if (call.callState == CTCallStateIncoming) {
+//            NSLog(@"Call Incoming");
+//            [SmaBleMgr setphonespark];
+//            
+//        } else if (call.callState == CTCallStateConnected){
+//            NSLog(@"Call Connected");
+//            
+//        } else if (call.callState == CTCallStateDisconnected){
+//            NSLog(@"Call Disconnected");
+//            
+//        }
+//        
+//        //        NSString *number = CTCallCopyAddress(NULL, call);
+//        //        NSLog(@"number: %@", number);
+//    };
     
     if (!path) {
         path = [ [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES) objectAtIndex:0]stringByAppendingPathComponent:@"Album"];

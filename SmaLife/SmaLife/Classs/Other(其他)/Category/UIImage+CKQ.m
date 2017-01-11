@@ -38,6 +38,9 @@
         if ([[preferredLang substringToIndex:2] isEqualToString:@"fr"]) {
           newName = [name stringByAppendingString:@"_fr"];
         }
+        else if ([[preferredLang substringToIndex:2] isEqualToString:@"de"]){
+             newName = [name stringByAppendingString:@"_de"];
+        }
         else{
         newName = [name stringByAppendingString:@"_en"];
         }

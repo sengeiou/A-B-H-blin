@@ -25,12 +25,30 @@
     self.hidesBottomBarWhenPushed=YES;
     [self.navigationController.navigationItem setHidesBackButton:YES];
     
+    
+    [self.succeedbtn setTitle:SmaLocalizedString(@"relievebandbnttitle") forState:UIControlStateNormal];
+    [self.againbtn setTitle:SmaLocalizedString(@"againbandbnttitle") forState:UIControlStateNormal];
+    //    if ([[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue >= 304) {
+    self.attenLab.hidden = NO;
+    self.attenLab.text = SmaLocalizedString(@"selectConnetcAgain");
+    //        [self.attenLab sizeToFit];
+    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.attenLab.frame.origin.y + self.attenLab.frame.size.height + 10);
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
+- (void)viewDidAppear:(BOOL)animated{
     SamCoreBlueTool *coreblue=[SamCoreBlueTool sharedCoreBlueTool];
     //扫描
     [coreblue relieveWatchBound];
     coreblue.swatchName = @"";
     coreblue.orSwatchName = @"";
     SmaUserInfo *userInfo=[SmaAccountTool userInfo];
+    if ( userInfo.watchUID && ![userInfo.watchUID.UUIDString isEqualToString:@""]) {
+        [self openBLset];
+    }
     userInfo.scnaSwatchName = nil;
     userInfo.orScnaSwatchName = nil;
     userInfo.watchName=@"";
@@ -44,25 +62,15 @@
     SmaBleMgr.saveMgr = nil;
     SmaBleMgr.peripherals=nil;
     SmaBleMgr.peripheral = nil;
-    [self.succeedbtn setTitle:SmaLocalizedString(@"relievebandbnttitle") forState:UIControlStateNormal];
-    [self.againbtn setTitle:SmaLocalizedString(@"againbandbnttitle") forState:UIControlStateNormal];
-    NSLog(@"30023-023===%d",[[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue);
-//    if ([[SmaUserDefaults stringForKey:@"BLSystemVersion"] stringByReplacingOccurrencesOfString:@"." withString:@""].intValue >= 304) {
-        self.attenLab.hidden = NO;
-        self.attenLab.text = SmaLocalizedString(@"selectConnetcAgain");
-//        [self.attenLab sizeToFit];
-        self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.attenLab.frame.origin.y + self.attenLab.frame.size.height + 10);
-//    }
-    
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:SmaLocalizedString(@"alert_title") message:SmaLocalizedString(@"selectConnetcAgain") delegate:self cancelButtonTitle:SmaLocalizedString(@"clockadd_confirm") otherButtonTitles:nil, nil];
-//    [alert show];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+- (void)openBLset{
+    NSURL *url = [NSURL URLWithString:@"prefs:root=Bluetooth"];
+    if ([[UIApplication sharedApplication] canOpenURL:url])
+    {
+        [[UIApplication sharedApplication] openURL:url];
+    }
 }
-
-
 
 //确定绑定，返回到上一页
 - (IBAction)backClick:(id)sender {

@@ -47,8 +47,8 @@
     self.forwmenlab.text=SmaLocalizedString(@"watch_model_forwomen");
     [self.shopbtn setTitle:SmaLocalizedString(@"shops_watch") forState:UIControlStateNormal];
     [self.nobandbtn setTitle:SmaLocalizedString(@"nobangtitle") forState:UIControlStateNormal];
-    watchArr = @[@"bond_1 - 副本",@"bond_2 - 副本"];
-    watchSelArr = @[@"bond_1",@"bond_2"];
+    watchArr = @[@"bond_1 - 副本",@"bond_2 - 副本",@"bond_3 - 副本",@"bond_4 - 副本"];
+    watchSelArr = @[@"bond_1",@"bond_2",@"bond_3",@"bond_4"];
     selectIntex = 0;
     [watchBut setImage:[UIImage imageNamed:watchArr[selectIntex]] forState:UIControlStateNormal];
      [watchBut setImage:[UIImage imageNamed:watchSelArr[selectIntex]] forState:UIControlStateHighlighted];
@@ -121,12 +121,12 @@
     if (but == leftBut) {
         selectIntex--;
         if (selectIntex<0) {
-            selectIntex = 1;
+            selectIntex = 3;
         }
     }
     else{
         selectIntex ++;
-        if (selectIntex>1) {
+        if (selectIntex>3) {
             selectIntex = 0;
         }
     }
